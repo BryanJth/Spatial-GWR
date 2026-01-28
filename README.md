@@ -39,3 +39,22 @@ Unit of analysis: **District/City (Kabupaten/Kota)** in East Java, year **2022**
    - Coefficient maps (local effects), residual maps/plots, significance clustering.
 
 ## Repository Structure
+## Repository Structure
+```text
+.
+├─ data/
+│  └─ Data (2).xlsx
+├─ scripts/
+│  ├─ GWR Code.R
+│  ├─ OLS Significant.R
+│  └─ Significant List.R
+├─ docs/
+│  ├─ Paper GWR (2).pdf
+│  ├─ Poster.pdf
+│  └─ Presentation (3).pdf
+└─ README.md
+
+
+Install packages
+```r
+install.packages(c("sf","sp","GWmodel","ggplot2","dplyr","readxl","car","lmtest","corrplot","GGally"))
